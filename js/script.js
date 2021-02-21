@@ -266,7 +266,7 @@
         if (!portionValue) {
             return insertProperty(html, portionPropName, "");
         }
-
+        
         portionValue = "(" + portionValue + ")";
         html = insertProperty(html, portionPropName, portionValue);
         return html;
