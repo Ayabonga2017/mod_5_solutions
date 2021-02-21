@@ -187,8 +187,6 @@
         return finalHtml;
     }
 
-
-
     // Builds HTML for the single category page based on the data
     // from the server
     function buildAndShowMenuItemsHTML(categoryMenuItems) {
@@ -276,4 +274,3 @@
     global.$dc = dc;
 
 })(window);
-  
