@@ -187,6 +187,8 @@
         return finalHtml;
     }
 
+
+
     // Builds HTML for the single category page based on the data
     // from the server
     function buildAndShowMenuItemsHTML(categoryMenuItems) {
@@ -264,7 +266,7 @@
         if (!portionValue) {
             return insertProperty(html, portionPropName, "");
         }
-        
+
         portionValue = "(" + portionValue + ")";
         html = insertProperty(html, portionPropName, portionValue);
         return html;
@@ -274,3 +276,4 @@
     global.$dc = dc;
 
 })(window);
+  
