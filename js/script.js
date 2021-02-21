@@ -1,4 +1,4 @@
- $(function () { // Same as document.addEventListener("DOMContentLoaded"...
+﻿$(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
     // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
     $("#navbarToggle").blur(function (event) {
@@ -276,4 +276,3 @@
     global.$dc = dc;
 
 })(window);
-  
